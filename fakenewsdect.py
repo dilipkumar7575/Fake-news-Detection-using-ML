@@ -9,8 +9,8 @@ from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 
-fake = pd.read_csv("D:\PROGRAMMING\LANGUAGE\python\Data/Fake.csv")
-true = pd.read_csv("D:\PROGRAMMING\LANGUAGE\python\Data/True.csv")
+fake = pd.read_csv("Fake.csv") #use your own dataset
+true = pd.read_csv("True.csv") #use your own dataset 
 
 fake.shape
 true.shape
